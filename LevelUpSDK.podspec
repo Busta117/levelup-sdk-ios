@@ -10,7 +10,6 @@ Pod::Spec.new do |s|
   s.frameworks   = 'AVFoundation', 'CoreBluetooth', 'CoreData', 'CoreGraphics', 'CoreLocation', 'CoreMedia', 'CoreTelephony', 'CoreVideo', 'ImageIO', 'MobileCoreServices', 'QuartzCore', 'Security', 'SystemConfiguration'
   s.weak_frameworks = 'PassKit'
   s.requires_arc = true
-  s.prefix_header_file = 'Source/Resources/LevelUpSDK-Prefix.pch'
 
   s.default_subspec = 'Core'
 
